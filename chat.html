@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="client.js" defer></script>
+</head>
+<body class="page">
+    <h1 class="title">Welcome to GOLB Chat, <span class="un" id="username"></span></h1>
+    <div id="chat-box"></div>
+    <div>
+        <input class="box" type="text" id="message-input" placeholder="Type your message...">
+        <br>
+        <button class="send-button" id="send-button">Send</button>
+    </div>
+    <img class="photo" src="golb.png" alt="Image not found">
+    <script>
+        // Function to get query parameter value
+        const getQueryParam = (param) => {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(param);
+        };
+
+        // Set the username from the query parameter
+        document.getElementById('username').innerText = getQueryParam('username') || 'Guest';
+    </script>
+</body>
+</html>
+

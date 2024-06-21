@@ -1,0 +1,76 @@
+.page {
+  background-color: #ebe9e1;
+} 
+.headtitle {
+  font-family: monospace;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  font-family: monospace;
+  margin-top: 20px;
+}
+#chat-box {
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #1BC2ED;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 20px auto;
+  width: 80%;
+  background-color: #14161E;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 200px;
+}
+.box {
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  background-color: #ebe9e1;
+  color: #000000;
+  width: 80%;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  box-shadow: 5px 5px 5px #e43d12;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  border-color: #e43d12;
+}
+.send-button {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #000000;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #ebe9e1;
+  display: block;
+  margin: 0 auto;
+}
+.send-button:hover {
+  transition: .5s;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #e43d12;
+}
+.send-button:active {
+  transition: 0s;
+  background-color: #e43d12;
+  color: #ffffff;
+}
+.photo {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.un {
+color: #e43d12;
+}
